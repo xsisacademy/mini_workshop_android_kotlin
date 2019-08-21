@@ -1,7 +1,7 @@
 # mini_workshop_android_kotlin
 Mini Workshop Android with Kotlin
 
-# Sample project sederhana untuk belajar development aplikasi Android menggunakan bahasa pemgrograman Kotlin.
+# Sample project sederhana untuk belajar development aplikasi Android menggunakan bahasa pemrograman Kotlin.
 
 Contoh project ini dibuat menggunakan Android API Level 28. 
 - Bagi yang belum menambahkan API Level 28 pada directory android-sdk nya silahkan ditambahkan melalui Android SDK Manager. 
