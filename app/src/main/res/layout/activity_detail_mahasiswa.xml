@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailMahasiswaActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detail Mahasiswa"
+            android:gravity="center_horizontal"
+            android:layout_margin="10dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+            <ImageView
+                    android:id="@+id/fotoMahasiswa"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:orientation="vertical">
+            <TextView
+                    android:id="@+id/namaMahasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Mahasiswa"
+            />
+            <TextView
+                    android:id="@+id/nimMahasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NIM Mahasiswa"
+            />
+            <TextView
+                    android:id="@+id/tanggalLahirMahasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DD/MM/YYYY"
+            />
+            <TextView
+                    android:id="@+id/genderMahasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="L/P"
+            />
+            <TextView
+                    android:id="@+id/jurusanMahasiswa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

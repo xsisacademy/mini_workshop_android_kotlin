@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mini Workshop Kotlin</string>
+    <string name="label_splash">Version 1.0</string>
+    <string name="text_form_login">Form Masuk</string>
+    <string name="text_login">Masuk Sekarang</string>
+    <string name="text_welcome">Selamat Datang</string>
+    <string name="text_logout">Keluar Aplikasi</string>
+    <string name="teks_menu1">Kamera</string>
+    <string name="teks_menu2">Volley</string>
+    <string name="teks_menu3">Esafirm Lib</string>
+    <string name="teks_menu4">Database</string>
+</resources>
